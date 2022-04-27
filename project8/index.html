@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>Bootstrap</title>
+  <!-- 新 Bootstrap5 核心 CSS 文件 -->
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/Normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!--  popper.min.js 用于弹窗、提示、下拉菜单 -->
+  <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">第一个</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index2.html">第二个</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <!-- 正文 -->
+  <div class="phone">
+    <div class="container">
+      <div class="row g-hd">
+        <div class="col-2">
+          <div class="dropdown">
+            <button type="button" class="btn dropdown-toggle btn-lg" data-bs-toggle="dropdown"
+              style="color: aliceblue;">
+              xx
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">杭州</a></li>
+              <li><a class="dropdown-item" href="#">上海</a></li>
+              <li><a class="dropdown-item" href="#">广西</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-8 m-find">
+          <form>
+            <div class="input-group input-group-sm mb-3">
+              <span class="input-group-text"><svg t="1650438370586" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                  xmlns="http://www.w3.org/2000/svg" p-id="2599" width="16" height="16">
+                  <path
+                    d="M446.112323 177.545051c137.567677 0.219798 252.612525 104.59798 266.162424 241.493333 13.562828 136.895354-78.778182 261.818182-213.617777 289.008485-134.852525 27.203232-268.386263-52.156768-308.945455-183.608889s25.018182-272.252121 151.738182-325.779394A267.235556 267.235556 0 0 1 446.112323 177.545051m0-62.060607c-182.794343 0-330.989899 148.195556-330.989899 330.989899s148.195556 330.989899 330.989899 330.989899 330.989899-148.195556 330.989899-330.989899-148.195556-330.989899-330.989899-330.989899z m431.321212 793.341415a30.849293 30.849293 0 0 1-21.94101-9.102223l-157.220202-157.220202c-11.752727-12.179394-11.584646-31.534545 0.37495-43.50707 11.972525-11.972525 31.327677-12.140606 43.494141-0.37495l157.220202 157.220202a31.036768 31.036768 0 0 1 6.723232 33.810101 31.004444 31.004444 0 0 1-28.651313 19.174142z m0 0"
+                    p-id="2600"></path>
+                </svg></span>
+              <input type="text" class="form-control" placeholder="xxxx">
+            </div>
+          </form>
+        </div>
+        <div class="col-2 m-user">
+          <svg t="1650438520367" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="3762" width="30" height="30">
+            <path
+              d="M657.066667 558.933333c-34.133333 25.6-76.8 38.4-123.733334 38.4s-85.333333-12.8-123.733333-38.4c0 4.266667-4.266667 4.266667-8.533333 4.266667C315.733333 614.4 256 708.266667 256 810.666667c0 12.8-8.533333 21.333333-21.333333 21.333333S213.333333 823.466667 213.333333 810.666667c0-119.466667 64-226.133333 166.4-281.6-38.4-38.4-59.733333-89.6-59.733333-145.066667 0-119.466667 93.866667-213.333333 213.333333-213.333333s213.333333 93.866667 213.333334 213.333333c0 55.466667-21.333333 106.666667-59.733334 145.066667 102.4 55.466667 166.4 162.133333 166.4 281.6 0 12.8-8.533333 21.333333-21.333333 21.333333s-21.333333-8.533333-21.333333-21.333333c0-102.4-59.733333-196.266667-149.333334-247.466667 0 0-4.266667 0-4.266666-4.266667z m-123.733334-4.266666c93.866667 0 170.666667-76.8 170.666667-170.666667s-76.8-170.666667-170.666667-170.666667-170.666667 76.8-170.666666 170.666667 76.8 170.666667 170.666666 170.666667z"
+              p-id="3763" fill="#ffffff"></path>
+          </svg>
+          <div>xxx</div>
+        </div>
+      </div>
+      <div class="g-bd">
+        <div class="row m-bd">
+          <div class="col-3">
+            <div class="m-img m-auto c-aqua"></div>
+            <span class="text m-auto">xx</span>
+          </div>
+          <div class="col-3">
+            <div class="m-img m-auto c-orange"></div>
+            <span class="text m-auto">xx</span>
+          </div>
+          <div class="col-3">
+            <div class="m-img m-auto c-aqua"></div>
+            <span class="text m-auto">xx</span>
+          </div>
+          <div class="col-3">
+            <div class="m-img m-auto c-orange"></div>
+            <span class="text m-auto">xx</span>
+          </div>
+        </div>
+        <div class="row m-bd">
+          <div class="col-3">
+            <div class="m-img m-auto c-orange"></div>
+            <span class="text m-auto">xx</span>
+          </div>
+          <div class="col-3">
+            <div class="m-img m-auto c-aqua"></div>
+            <span class="text m-auto">xx</span>
+          </div>
+          <div class="col-3">
+            <div class="m-img m-auto c-orange"></div>
+            <span class="text m-auto">xx</span>
+          </div>
+          <div class="col-3">
+            <div class="m-img m-auto c-aqua"></div>
+            <span class="text m-auto">xx</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="container-fluid g-line"></div>
+      <div class="g-bd-1">
+        <div class="row">
+          <div class="col-4">
+            <div class="m-lt">
+              <li>XXX</li>
+              <li>xxxxxxxxxxxxx</li>
+              <div class="m-bd_box"></div>
+            </div>
+          </div>
+          <div class="row col-8 m-rt">
+            <div class="row m-rt-hd">
+              <div class="col-6">
+                <li>XXX</li>
+                <li>XXXXXXX</li>
+              </div>
+              <div class="col-6">
+                <div class="m-auto"></div>
+              </div>
+            </div>
+            <div class="col-6">
+              <span>XXXX</span>
+              <div class="m-auto"></div>
+            </div>
+            <div class="col-6">
+              <li>XXX</li>
+              <li>XXXXXXX</li>
+              <div class="m-rt-time">
+                <li>10</li>
+                <li>:</li>
+                <li>56</li>
+                <li>:</li>
+                <li>24</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid g-line"></div>
+      <div class="row g-bd-2">
+        <div class="col-6">
+          <div class="row m-2-bd_box ">
+            <div class="col-6 ">
+              <li>XXX</li>
+              <li>XXXXXXXX</li>
+            </div>
+            <div class="col-6">
+              <div class="m-auto"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="m-2-bd_box row">
+            <div class="col-6">
+              <li>XXX</li>
+              <li>XXXXXXXX</li>
+            </div>
+            <div class="col-6">
+              <div class="m-auto"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container g-line"></div>
+      <div class="g-ft row">
+        <div class="col-11 g-ft-hd m-auto">
+          <span>XXXXXXX</span>
+        </div>
+        <div class="row m-ft-box m-auto">
+          <div class="col-3">
+            <div>
+              <div class="orderNow">
+                免预约
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="m-title">
+              <li>XXX</li>
+              <li>XXXXXXXXXXXXXXXXXXX</li>
+            </div>
+            <div class="m-price">
+              <span>XX</span>
+              <span>元</span>
+              <span>多优惠＋</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <span>已售549516</span>
+          </div>
+        </div>
+        <div class="row m-ft-box m-auto">
+          <div class="col-3">
+            <div>
+              <div class="orderNow">
+                免预约
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="m-title">
+              <li>XXX</li>
+              <li>XXXXXXXXXXXXXXXXXXX</li>
+            </div>
+            <div class="m-price">
+              <span>XX</span>
+              <span>元</span>
+              <span>多优惠＋</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <span>已售549516</span>
+          </div>
+        </div>
+        <div class="row m-ft-box m-auto">
+          <div class="col-3">
+            <div>
+              <div class="orderNow">
+                免预约
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="m-title">
+              <li>XXX</li>
+              <li>XXXXXXXXXXXXXXXXXXX</li>
+            </div>
+            <div class="m-price">
+              <span>XX</span>
+              <span>元</span>
+              <li>门市价：xx元</li>
+            </div>
+          </div>
+          <div class="col-3">
+            <span>已售549516</span>
+          </div>
+        </div>
+        <div class="row m-ft-box m-auto">
+          <div class="col-3">
+            <div></div>
+          </div>
+          <div class="col-6">
+            <div class="m-title">
+              <li>XXX</li>
+              <li>XXXXXXXXXXXXXXXXXXX</li>
+            </div>
+            <div class="m-price">
+              <span>XX</span>
+              <span>元</span>
+              <li>门市价：xx元</li>
+            </div>
+          </div>
+          <div class="col-3">
+            <span>已售549516</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="row ft-end">
+        <div class="col-12 row">
+          <span class="col-11">XXXXXXXXXXXXX</span>
+          <span class="col-1">></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

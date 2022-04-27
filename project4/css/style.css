@@ -1,0 +1,240 @@
+.bkg {
+    width: 1252px;
+    height: 1204px;
+    background: url("/img/ex05.png") no-repeat;
+    position: absolute;
+    opacity: 0;
+}
+.rt {
+    width: 468px;
+    height: 335px;
+    margin-left: 51px;
+    padding-top: 53px;
+}
+.rt div:nth-child(1){
+    border-bottom: 4px solid #0269b1;
+    width: 47px;
+    font-size: 36px;
+    padding-top: -6px;
+    height: 60px;
+}
+.rt div:nth-child(2){
+    /* color: red; */
+    margin-top: 30px;
+    font-size: 25px;
+}
+.m-hd>div {float: left;}
+
+.m-bd {
+    width: min-content;
+}
+
+.lf {
+    margin-left: 127px;
+    margin-top: 35px;
+}
+
+.rt div:nth-child(3) {
+    width: 197px;
+    height: 41px;
+    margin-top: 28px;
+    box-sizing: border-box;
+    background-color: #0269b1;
+    display: flex;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.rt div:nth-child(3)>span {
+    padding-left: 69px;
+}
+
+.m-bd>div {
+    width: 1010px;
+    margin-top: 27px;
+    margin-left: -10px;
+}
+.clear {
+    clear: both;
+}
+.m-bd {
+    margin-top: 50px;
+    margin-left: 129px;
+}
+
+.line {
+    s;
+    height: 52px;
+    border-bottom: 3px solid #79797B;
+}
+.m-bd div:nth-child(1)>div{
+    width: 400px;
+    color: #096bb0;
+    font-size: 31px;
+    font-weight: bolder;
+    display: inline;
+}
+.m-bd div:nth-child(1)>div{
+    width: 400px;
+    height: 11px;
+    color: #096bb0;
+    font-size: 31px;
+    font-weight: bolder;
+    display: inline;
+    padding-left: 8px;
+}
+.m-bd1 {
+    font-size: 10px;
+}
+
+li {
+    list-style: none;
+    margin-top: 53px;
+    width: 900px;
+    margin-left: -3px;
+    height: 36px;
+    border-bottom: 1px solid #6666;
+}
+li>span {
+    width: 100px;
+    display: inline-block;
+    margin-left:10px ;
+}
+
+li span:nth-child(2) {
+    width: 106px;
+    height: 27px;
+    background-color: #096bb0;
+    color: #fff;
+    border-radius: 26px;
+    text-align: center;
+}
+li span:nth-child(1) {
+    color: #bbbbbb;
+    font-size: 13px;
+}
+li span:nth-child(3) {
+    width: 291px;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.bu {
+    background-color:#096bb0;
+    margin-left: 700px;
+    border-radius: 6px;
+    height: 100px;
+}
+
+.m-ft{
+    margin-top: 27px;
+    width: 1240px;
+}
+
+.m-ft-bg {
+    height: 363px;
+    width: 1240px;
+    background-color: #f8f8f8;
+    margin-left: 10px;
+}
+
+.m-ft-bg-0 {
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+    border: 1px solid #e4e4e4;
+    margin-left: 45px;
+    background-color: #fff;
+    float: left;
+}
+.ft-hd {
+    width: 500px;
+    height: 34px;
+    float: left;
+    font-size: 25px;
+    color: #0269b3;
+    margin-top: 10px;
+    margin-left: 43px;
+    border-left: 6px solid;
+}
+.ft-hd>div {
+    margin-left: 16px;
+}
+.ft-hd+.ft-hd {
+    margin-left: 103px;
+}
+.m-ft-bg-0+.m-ft-bg-0 {
+    margin-left: 116px;
+}
+
+.m-ft-bg-0 div:nth-child(1) {
+    width: 500px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 11px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.m-ft-bg-0 div:nth-child(2) {
+    width: 500px;
+    height: 50px;
+    margin-top: -8px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bolder;
+    color: #0269b3;
+}
+.m-ft-bg-0 div:nth-child(3) {
+    width: 397px;
+    height: 69px;
+    margin-top: 26px;
+    margin-left: 57px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    border-bottom: 1px solid #696969;
+}
+.m-ft-bg-0 div:nth-child(4) {
+    width: 500px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0269b3;
+}
+.but {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #0269b3;
+}
+.m-ft-bg-0 p:nth-child(1) {
+    width: 428px;
+    height: 70px;
+    margin-left: 44px;
+    margin-top: 45px;
+    background-color: #0269b3;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+.m-ft-bg-0 p:nth-child(2) {
+    width: 250px;
+    height: 10px;
+    margin-left: 132px;
+    margin-top: 10px;
+    /* background-color: #0269b3; */
+}
+.m-ft-bg-0 p:nth-child(1)>span {
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+}

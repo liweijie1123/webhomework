@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<style>
+	body{
+		margin: 30px;
+	}
+	li {
+		list-style: none;
+		background-color:#eee ;
+		border: 1px solid #000;
+		border-radius: 999px;
+		margin: 5px;
+		height: 30px;
+		width: 150px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	div {
+		display: flex;
+	}
+</style>
+</head>
+<body>
+    <div>
+    	<li>图片放大显示-jq</li>
+    	<li>图片放大显示-js</li>
+    	<li>页面滑动门技术-jq</li>
+    	<li>页面滑动门技术-js</li>
+    	<li>数据管理操作-jq</li>
+    	<li>数据管理操作-js</li>
+    </div>
+    <div class="cnt">
+    	<embed width="100%" height="800px" src="0/index.html">
+    </div>
+    <script>
+	document.querySelectorAll('li').forEach((item,i)=>{
+		item.addEventListener('click',(e)=>{
+			var src1 = i+'/index.html'
+			document.querySelector('embed').src=src1;
+		})
+	})
+</script>
+</body>
+</html>

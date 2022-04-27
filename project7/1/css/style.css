@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cnt {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: block;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.clear {
+    clear: both;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+.img {
+    width: 640px;
+    background-color: #eee;
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.img>div {
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+
