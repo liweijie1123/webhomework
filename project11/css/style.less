@@ -1,0 +1,519 @@
+html {
+	font-size: 20px
+}
+
+
+li {
+	list-style: none;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+	.g-index {
+		display: flex;
+		flex-direction: column;
+
+
+		.g-hd {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			width: 100%;
+			height: 64px;
+
+			.m-trg {
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+				width: 10%;
+
+
+				span {
+					display: block;
+					height: 4px;
+					width: 18px;
+					border-radius: 4px;
+					background-color: #000;
+
+					&+span {
+						margin-top: 2px;
+					}
+				}
+
+			}
+
+			.m-logo {
+				display: flex;
+				justify-content: center;
+				align-content: center;
+				width: 50%;
+
+				span {
+					display: block;
+					color: red;
+					font-size: 0.9rem;
+					font-weight: bolder;
+					align-self: center;
+
+					img {
+						height: 24px;
+						width: 24px;
+					}
+
+					&+span {
+						margin: 0 4px;
+					}
+
+				}
+			}
+
+			.m-nav {
+				display: flex;
+				display: none;
+
+				li {
+					position: relative;
+					display: flex;
+					align-items: center;
+					font-size: 0.8rem;
+					cursor: pointer;
+					transition: 0.5s;
+					height: 100%;
+					padding: 0 10px;
+					border-bottom: 1px solid rgb(237, 237, 237);
+
+					span {
+						display: block;
+						align-self: center;
+
+						&+span {
+							margin: 12px 10px;
+							margin-left: auto;
+						}
+					}
+				}
+
+				&.mobile {
+					position: fixed;
+					display: flex;
+					flex-direction: column;
+					background-color: #fff;
+					left: 0;
+					right: 0;
+					top: 64px;
+
+				}
+			}
+
+			.m-login {
+				display: flex;
+				justify-content: flex-end;
+				height: 100%;
+				width: 10%;
+
+				:hover {
+					color: skyblue;
+				}
+
+				cursor: pointer;
+
+				span {
+					display: block;
+					align-self: center;
+					font-size: 0.8rem;
+				}
+
+				span:nth-child(1) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 640px) and (max-width: 980px) {
+	.g-index {
+		display: flex;
+		flex-direction: column;
+
+		.g-hd {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			width: 100%;
+			height: 64px;
+
+			.m-trg {
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+				width: 10%;
+
+
+				span {
+					display: block;
+					height: 4px;
+					width: 18px;
+					border-radius: 4px;
+					background-color: #000;
+
+					&+span {
+						margin-top: 2px;
+					}
+				}
+
+			}
+
+			.m-logo {
+				display: flex;
+				justify-content: center;
+				align-content: center;
+				width: 50%;
+
+				span {
+					display: block;
+					color: red;
+					font-size: 0.9rem;
+					font-weight: bolder;
+					align-self: center;
+
+					img {
+						height: 24px;
+						width: 24px;
+					}
+
+					&+span {
+						margin: 0 4px;
+					}
+
+				}
+			}
+
+			.m-nav {
+				display: flex;
+				display: none;
+
+				li {
+					position: relative;
+					display: flex;
+					align-items: center;
+					font-size: 0.8rem;
+					cursor: pointer;
+					transition: 0.5s;
+					height: 100%;
+					padding: 0 10px;
+					border-bottom: 1px solid rgb(237, 237, 237);
+
+					span {
+						display: block;
+						align-self: center;
+
+						&+span {
+							margin: 12px 10px;
+							margin-left: auto;
+						}
+					}
+				}
+
+				&.mobile {
+					position: fixed;
+					display: flex;
+					flex-direction: column;
+					background-color: #fff;
+					left: 0;
+					right: 0;
+					top: 64px;
+
+				}
+			}
+
+			.m-login {
+				display: flex;
+				justify-content: flex-end;
+				height: 100%;
+				width: 10%;
+
+				:hover {
+					color: skyblue;
+				}
+
+				cursor: pointer;
+
+				span {
+					display: block;
+					align-self: center;
+					font-size: 0.8rem;
+				}
+
+				span:nth-child(1) {
+					display: none;
+				}
+			}
+		}
+
+		.g-Bimge {
+			height: 650px;
+			display: flex;
+			align-items: center;
+			.m-leftText {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+				margin-left: 150px;
+				margin-top: 700px;
+				position: relative;
+
+				div {
+					display: flex;
+
+					span:nth-child(1) {
+						text-align: center;
+						display: block;
+						width: 113.64px;
+						height: 32px;
+						background-color: rgb(37, 156, 200);
+						border-radius: 99px;
+						line-height: 32px;
+						color: #fff;
+						cursor: pointer;
+						font-size: 0.7rem;
+					}
+
+					span:nth-child(2) {
+						text-align: center;
+						display: block;
+						width: 113.64px;
+						height: 32px;
+						line-height: 32px;
+						font-size: medium;
+					}
+				}
+			}
+
+			.m-bd_ft {
+				margin-top: 900px;
+				display: flex;
+				width: 100%;
+				justify-content: center;
+				align-content: center;
+				height: 69px;
+				border-bottom: 1px solid rgb(230, 226, 226);
+
+				span {
+					align-self: center;
+					font-weight: bold;
+					font-size: .8rem;
+					margin-right: 10px;
+				}
+
+				li {
+					color: skyblue;
+					font-size: .8rem;
+					align-self: center;
+
+					&+li {
+						margin: 0 10px;
+					}
+
+					cursor: pointer;
+
+					:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 980px) {
+	.g-index {
+		display: flex;
+		flex-direction: column;
+
+		.g-hd {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 64px;
+			width: 100%;
+
+			.m-trg {
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+				display: none;
+
+				span {
+					display: block;
+					height: 4px;
+					width: 18px;
+					border-radius: 4px;
+					background-color: #000;
+
+					&+span {
+						margin-top: 2px;
+					}
+				}
+
+			}
+
+			.m-logo {
+				display: flex;
+				justify-content: center;
+				align-content: center;
+				padding: 0 30px;
+				cursor: pointer;
+
+				span {
+					display: block;
+					color: red;
+					font-size: 0.9rem;
+					font-weight: bolder;
+					align-self: center;
+
+					img {
+						height: 24px;
+						width: 24px;
+					}
+
+					&+span {
+						margin: 0 4px;
+					}
+
+				}
+			}
+
+			.m-nav {
+				display: flex;
+				justify-content: center;
+				align-self: center;
+				margin-left: 30px;
+				height: 100%;
+
+				:hover {
+					background-color: rgb(248, 248, 248);
+				}
+
+				li {
+					display: flex;
+					font-size: 0.65rem;
+					font-weight: bolder;
+					cursor: pointer;
+					transition: 0.5s;
+					padding: 0 30px;
+
+
+					span {
+						display: block;
+						align-self: center;
+
+						&+span {
+							padding-left: 5px;
+						}
+					}
+				}
+			}
+
+			.m-login {
+				display: flex;
+				justify-content: flex-end;
+				height: 100%;
+
+				:hover {
+					color: skyblue;
+				}
+
+				cursor: pointer;
+
+				span {
+					display: block;
+					align-self: center;
+					font-size: 0.8rem;
+
+					&+span {
+						margin-left: 40px;
+					}
+				}
+			}
+		}
+
+		.g-Bimge {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-content: center;
+			height: 650px;
+			width: 100%;
+			margin-top: 32px;
+			.m-leftText {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+				position: absolute;
+				margin-left: 150px;
+				width: 495px;
+
+				div {
+					display: flex;
+
+					span:nth-child(1) {
+						text-align: center;
+						display: block;
+						width: 113.64px;
+						height: 32px;
+						background-color: rgb(37, 156, 200);
+						border-radius: 99px;
+						line-height: 32px;
+						color: #fff;
+						cursor: pointer;
+						font-size: 0.7rem;
+					}
+
+					span:nth-child(2) {
+						text-align: center;
+						display: block;
+						width: 113.64px;
+						height: 32px;
+						line-height: 32px;
+						font-size: medium;
+					}
+				}
+			}
+
+			.m-bd_ft {
+				margin-top: 30px;
+				display: flex;
+				width: 100%;
+				justify-content: center;
+				align-content: center;
+				height: 69px;
+				border-bottom: 1px solid rgb(230, 226, 226);
+
+				span {
+					align-self: center;
+					font-weight: bold;
+					font-size: .8rem;
+					margin-right: 10px;
+				}
+
+				li {
+					color: skyblue;
+					font-size: .8rem;
+					align-self: center;
+
+					&+li {
+						margin: 0 10px;
+					}
+
+					cursor: pointer;
+
+					:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}
