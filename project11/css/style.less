@@ -23,6 +23,7 @@ li {
 				display: flex;
 				flex-direction: column;
 				align-content: center;
+				justify-content: center;
 				width: 10%;
 
 
@@ -388,12 +389,14 @@ li {
 						border-bottom: 1px solid #000;
 					}
 					span{
-						display: none;
-						font-size: 0.66rem;
-						
+						display: block;
+						font-size: 0.66rem;				
 						color: rgb(84, 84, 84);
 					}
-					&+.txt{
+					.mob{
+						display: none;
+						justify-content: center;
+						flex-direction: column;
 						
 					}
 				}
@@ -413,10 +416,23 @@ li {
 				}
 			}
 		}
+		.g-foot{
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			height: 50px;
+			margin: 30px 0;
+			span {
+				display: block;
+				font-size: 0.7rem;
+				margin: 0 3px;
+			}
+		}
 	}
 }
 
 @media (min-width: 640px) and (max-width: 980px) {
+
 	.g-index {
 		display: flex;
 		flex-direction: column;
@@ -431,9 +447,16 @@ li {
 				display: flex;
 				flex-direction: column;
 				align-content: center;
+				justify-content: center;
 				width: 10%;
 
-
+				div{
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+				justify-content: center;
+				width: 18px;
+			
 				span {
 					display: block;
 					height: 4px;
@@ -445,6 +468,7 @@ li {
 						margin-top: 2px;
 					}
 				}
+			}
 
 			}
 
@@ -500,6 +524,7 @@ li {
 				}
 
 				&.mobile {
+					
 					position: fixed;
 					display: flex;
 					flex-direction: column;
@@ -507,6 +532,7 @@ li {
 					left: 0;
 					right: 0;
 					top: 64px;
+					transform: 0.5s;
 
 				}
 			}
@@ -792,13 +818,15 @@ li {
 						border-bottom: 1px solid #000;
 					}
 					span{
-						display: none;
-						font-size: 0.66rem;
-						
+						display: block;
+						font-size: 0.66rem;	
 						color: rgb(84, 84, 84);
 					}
-					&+.txt{
-						
+					.mob{
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+						display: none;
 					}
 				}
 
@@ -815,6 +843,18 @@ li {
 					display: block;
 					margin: 0 10px;
 				}
+			}
+		}
+		.g-foot{
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			height: 50px;
+			margin: 30px 0;
+			span {
+				display: block;
+				font-size: 0.7rem;
+				margin: 0 3px;
 			}
 		}
 	}
@@ -1190,6 +1230,11 @@ li {
 					&+.txt{
 						margin-left: 40px;
 					}
+					div{
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+					}
 				}
 
 			}
@@ -1207,6 +1252,18 @@ li {
 					display: block;
 					margin: 0 10px;
 				}
+			}
+		}
+		.g-foot{
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			height: 50px;
+			margin: 30px 0;
+			span {
+				display: block;
+				font-size: 0.7rem;
+				margin: 0 3px;
 			}
 		}
 	}
