@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="g-index">
+       <div class="hd">
+           <p>优化结果分析</p>
+       </div>
+       <p style="color:#fff;font-size: 30px;font-weight: bolder;text-align: center;" >gulp打包</p>
+       <div class="bd">
+           <div class="gulp">
+            <pre>
+    gulp打包                             优化前          优化后                                
+    ┣ data                               7.24 KB        4.18 KB 
+    ┃ ┣ header.json                                      
+    ┃ ┣ homeinfo.json                                      
+    ┃ ┗ slider.json                                    
+    ┣ img                                 2.51 MB       1.51 MB
+    ┃ ┣ home_info_1.jpg                                       
+    ┃ ┣ home_info_2.jpg                                      
+    ┃ ┣ home_info_3.jpg                                      
+    ┃ ┣ home_info_4.jpg                                      
+    ┃ ┣ home_info_5.jpg                                    
+    ┃ ┣ slider1.jpg                                      
+    ┃ ┣ slider2.jpg                                      
+    ┃ ┣ slider3.jpg                                     
+    ┃ ┗ slider4.jpg                                      
+    ┣ lib                                 689 KB        381 KB
+    ┃ ┣ jquery                                        
+    ┃ ┃ ┣ jquery-ui.css                                        
+    ┃ ┃ ┣ jquery-ui.js                                        
+    ┃ ┃ ┣ jquery.cookie.js                                        
+    ┃ ┃ ┣ jquery.min.js                                        
+    ┃ ┃ ┣ jquery.validate.js                                        
+    ┃ ┃ ┗ jquery.validate.messages_cn.js                                        
+    ┃ ┗ jsrender                                        
+    ┃ ┃ ┗ jsrender.js                                        
+    ┣ sys                                       
+    ┃ ┣ css                               14.8 KB       7.83 KB 
+    ┃ ┃ ┣ common.css                                        
+    ┃ ┃ ┣ index.css                                        
+    ┃ ┃ ┗ normalize.css                                        
+    ┃ ┗ js                                2.10 KB       1.54 KB
+    ┃ ┃ ┣ common.js                                        
+    ┃ ┃ ┗ index.js                                        
+    ┣ tmpl                                1.91 KB       1.91 KB 
+    ┃ ┣ footer.tmpl                                        
+    ┃ ┣ header.tmpl                                        
+    ┃ ┣ homeinfo.tmpl                                        
+    ┃ ┗ slider.tmpl                                        
+    ┗ index.html                          4.00 KB       4.00 KB       
+            </pre>
+            <div class="score">
+                <p>优化率：</p>
+                <div>63%</div>
+            </div>
+           </div>
+
+           <p style="color:#fff;font-size: 30px;font-weight: bolder;text-align: center;" >webpack打包</p>
+           <div class="gulp">
+            <pre>
+    webpack打包                           优化前                                
+    ┣ data                               7.24 KB         
+    ┃ ┣ header.json                                     
+    ┃ ┣ homeinfo.json                                   
+    ┃ ┗ slider.json                                 
+    ┣ img                                 2.51 MB       
+    ┃ ┣ home_info_1.jpg                                 
+    ┃ ┣ home_info_2.jpg                                 
+    ┃ ┣ home_info_3.jpg                                 
+    ┃ ┣ home_info_4.jpg                                 
+    ┃ ┣ home_info_5.jpg                                 
+    ┃ ┣ slider1.jpg                                     
+    ┃ ┣ slider2.jpg                                     
+    ┃ ┣ slider3.jpg                                    
+    ┃ ┗ slider4.jpg                                     
+    ┣ lib                                 689 KB        
+    ┃ ┣ jquery                                        
+    ┃ ┃ ┣ jquery-ui.css                                 
+    ┃ ┃ ┣ jquery-ui.js                                  
+    ┃ ┃ ┣ jquery.cookie.js                                 
+    ┃ ┃ ┣ jquery.min.js                                 
+    ┃ ┃ ┣ jquery.validate.js                                 
+    ┃ ┃ ┗ jquery.validate.messages_cn.js                                 
+    ┃ ┗ jsrender                                       
+    ┃ ┃ ┗ jsrender.js                                   
+    ┣ sys                                       
+    ┃ ┣ css                               14.8 KB        
+    ┃ ┃ ┣ common.css                                    
+    ┃ ┃ ┣ index.css                                     
+    ┃ ┃ ┗ normalize.css                                 
+    ┃ ┗ js                                2.10 KB       
+    ┃ ┃ ┣ common.js                                     
+    ┃ ┃ ┗ index.js                                      
+    ┣ tmpl                                1.91 KB        
+    ┃ ┣ footer.tmpl                                     
+    ┃ ┣ header.tmpl                                     
+    ┃ ┣ homeinfo.tmpl                                   
+    ┃ ┗ slider.tmpl                                     
+    ┗ index.html                          4.00 KB  
+    
+    
+
+                            ##优化后##
+    ┣ data                           7.24 KB 
+    ┃ ┣ header.json
+    ┃ ┣ homeinfo.json    
+    ┃ ┗ slider.json
+    ┣ js                             120 KB 
+    ┃ ┣ main.js
+    ┃ ┗ main.js.LICENSE.txt
+    ┣ tmpl                           1.91 KB 
+    ┃ ┣ footer.tmpl
+    ┃ ┣ header.tmpl
+    ┃ ┣ homeinfo.tmpl
+    ┃ ┗ slider.tmpl
+    ┗ index.html                     398 字节
+            </pre>
+            <div class="score">
+                <p>优化率：</p>
+                <div>95%</div>
+            </div>
+           </div>
+       </div>
+    </div>
+</body>
+</html>

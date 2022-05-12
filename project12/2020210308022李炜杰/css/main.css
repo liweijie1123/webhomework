@@ -1,0 +1,19 @@
+body {
+    background-color: burlywood;
+}
+.hd {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.gulp {
+    color: aliceblue;
+    font-size: 16px;
+    display: flex;
+    margin-top: 20px 0;
+}
+.score>div {
+    color: brown;
+    font-size: 40px;
+}
